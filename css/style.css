@@ -172,7 +172,7 @@ p {
 }
 
 .colum {
-  margin-top: 12rem ;
+  margin-top: 10rem ;
 
   width: 70%;
   height: 100px;
@@ -389,17 +389,42 @@ Footer
     margin-right: 5rem;
     margin-top: 4%;
   }
+
+  
   /*
   クリスマス限定プランページ
   =================================*/
+  
+  
   .container {/*写真とテキストを中央寄せ*/
     width: 30rem;
   }
   .column {
     width: 800px;
     
+    
+  }
+
+  .text-p {
+    align-items: center;
+    display: flex;
+    margin: 0 10.5rem 0 0;
+    
+  }
+
+  .plan-pr .btn-wrapper{/*ボタンを立て並びにしたい*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colum .plan-bg .plan-pr .plan-text .btn-wrapper{
+    align-items: center;
   }
   
+  .btn-left,
+  .btn-right {
+    margin-right: 20%;
+  }
 }
 
 /*
@@ -418,6 +443,11 @@ iPhone 12 Proサイズ
 
   }
 
+  .container {
+    width: 70%;
+
+  }
+
   #plan {
     width: 100%;
     height: 70rem;
@@ -429,19 +459,23 @@ iPhone 12 Proサイズ
 
   .colum {/*この幅が小さすぎるとボタンの幅が変になる*/
     width: 30rem;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: -8%;
+    display: inline-block;
   }
+
+  
 
   .btn-wrapper {
     width: 100%;
-    display: inline-flex;
-    flex-flow: column;
-    margin: 0 auto;
+    margin-right: -25%;
+    text-align: center;
+    
+    
   }
 
-  .btn-left,
-  .btn-right {
-    display: inline-block;
-  }
+  
 
   .plan-text {
     width: 100%;
@@ -449,6 +483,7 @@ iPhone 12 Proサイズ
 
   .plan-bg {
     width: 55%;
+    
   }
 
 
@@ -523,8 +558,10 @@ iPhone XRサイズ
 
   .colum {/*この幅が小さすぎるとボタンの幅が変になる*/
     width: 29rem;
-    display: flex;
-    flex-flow: column;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: -8%;
+    display: inline-block;
     align-items: center;   
   }
 
@@ -539,7 +576,7 @@ iPhone XRサイズ
 
 
   .btn-wrapper {
-    margin-right: 0;
+  
     margin-top: 3rem;
   }
 
