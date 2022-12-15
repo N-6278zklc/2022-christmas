@@ -1,0 +1,503 @@
+
+
+html {
+  font-size: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  
+}
+
+/*
+ヘッダー
+===========================*/
+
+header {
+  background: rgb(63, 47, 38, .5);
+  height: 100px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fff;
+  margin-left: 7%;/*左側の空白*/
+  margin-top: 2%;
+  font-family: 'Kiwi Maru', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lobster', cursive;
+  font-size: 1.75rem;
+}
+
+.main-nav ul{
+  display: flex;
+}
+
+.mobile-menu {
+  visibility: hidden;
+}
+
+nav {
+  margin-right: 7%;/*右側の空白*/
+  margin-top: 2%;
+}
+
+.main-nav li {
+  width: 98px;
+  margin-left: 2%;
+  font-family: 'Kiwi Maru', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 1.75rem;
+}
+
+#hero {
+  width: 100%;
+  height: 55rem;
+  background-image: url(../img/top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.top-box {
+  display: inline-block;
+ 
+  
+}
+.hotel-name {
+  position: absolute;
+  background-color: rgb(204, 175, 150, .5);
+  padding: 4rem 2rem 4rem 2rem;
+  top: 35%;
+  left: 20%;
+  text-align: center;
+}
+.hotel-name h1,
+p {
+  color: #fff;
+   justify-content: center;font-family: 'Kiwi Maru', serif;
+   font-family: 'Libre Baskerville', serif;
+   font-family: 'Lobster', cursive;
+   font-size: 1.75rem;
+}
+
+.hotel-name h1 {
+  padding-bottom: 1.25rem;
+  border-bottom: solid 1px;
+  letter-spacing: 10px;
+}
+.hotel-name p {
+  padding-top: 1.25rem;
+  letter-spacing: 10px;
+}
+
+/*
+クリスマスプラン
+=================================*/
+
+#plan {
+  width: 100%;
+  height: 45rem;
+  background: #CCAF96;
+}
+
+.container {
+  width: 48%;
+  height: 15rem;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.plan-text {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.page-title {
+  margin: auto;
+  padding: 3% 5%;
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 3rem;
+  color:#3F2F26;
+}
+
+/*.page-title h2 {
+  font-family: 'Zen Old Mincho', serif;
+  
+
+}不都合あれば復活*/
+
+.plan-bg {
+  height: 300px;
+  width: 300px;
+  left: 0;
+  right: 20rem;
+}
+
+.colum {
+  margin-top: 12rem ;
+
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  
+}
+
+.text-p {
+  margin: 0 20% 5% 0;
+  color: black;
+  font-size: 1.24rem;
+  font-family: 'Zen Old Mincho', serif;
+  color:#3F2F26;
+  /*margin-left: 8rem;*/
+}
+
+
+.plan-pr {
+  width: 100%;
+  height: 90px;
+  margin: 0 0 0 5rem;
+  text-align: center;
+  
+  /*padding-top: 5rem;*/
+}
+
+
+
+/*予約ボタン*/
+
+
+
+.btn-left {/*「ご予約」ボタンのプロパティ*/
+  background: #912728;
+  margin-right: 12px;
+}
+
+.btn-right {/*「詳細はこちら」ボタンのプロパティ*/
+  background: #CE8A3D;
+}
+
+.btn-left,
+.btn-right {
+  padding: 12px 12px;
+  
+}
+
+/*予約ボタンの並びを横並びに指定*/
+
+.btn-wrapper {
+  width: 30rem;
+  display: flex;
+  justify-content: left;/*ボタンをimgに左寄せ*/
+  
+}
+
+/*
+Dinnerメニュー
+=================================*/
+
+#dinner {
+  height: 70rem;
+  color: #3F2F26;
+  width: 100%;
+  
+}
+
+#dinner .container {
+  width: 100%;
+}
+
+.menu {
+  width: 100%;
+  margin: 0 auto;
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+.container .menu-block {
+ display: inline-block;
+ justify-content: center; 
+}
+
+.menu-block {/*前菜、メイン、デザートのdiv*/
+  height: 100%;
+  width: 70%;
+  font-family: 'Zen Old Mincho', serif;
+  margin: 12% auto;
+  align-items: center;
+  background: #f0f0f0;
+}
+
+.menu-block ul {
+  padding-left: 15%;
+  line-height: 5rem;
+  list-style: inside;
+  text-align: left;
+  
+}
+
+.menu-title {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.menu-block p {
+  color: #3F2F26;
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sub-title {
+  color: #3F2F26;
+  font-size: 1rem;
+  font-family: 'Zen Old Mincho', serif;
+
+}
+
+/*
+Launch
+=========================*/
+
+#launch .container {
+  width: 100%;
+  height: 65rem;
+}
+
+/*
+acsess
+==================================*/
+
+#acsess {
+  width: 100%;
+  height: 70rem;
+  background: #CCAF96;
+}
+
+.display {/*住所のdivとマップのdivを横並びに指定*/
+
+  margin: 30% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.location {/*住所を左揃え*/
+ 
+  text-align: left;
+}
+
+.location h3 {
+  color: #3F2F26;
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 1.35rem;
+  line-height: 5rem;
+  border-bottom: 1px solid #3F2F26;
+}
+
+.location p {
+  color: #3F2F26;
+  font-family: 'Zen Old Mincho', serif;
+  font-size: 1.15rem;
+  margin-top: 15%;
+  line-height: 2rem;
+}
+
+.map {
+  margin-left: 10%;
+}
+
+
+/*
+Footer
+========================================*/
+#footer {
+  height: 25px;
+  width: 100%;
+  background: #3F2F26;
+}
+
+#footer p {
+  font-size: 1.15rem;
+  text-align: center;
+}
+/*
+モバイルサイズ
+============================================*/
+@media(max-width: 800px) {
+
+
+  header {
+    width: 100%;
+  }
+
+  .main-nav {
+    display: none;
+  }
+  .logo {
+    margin-top: 4%;
+  }
+  .mobile-menu {
+    visibility: visible;
+    margin-right: 5rem;
+    margin-top: 4%;
+  }
+  /*
+  クリスマス限定プランページ
+  =================================*/
+  .container {/*写真とテキストを中央寄せ*/
+    width: 30rem;
+  }
+  .column {
+    width: 800px;
+    
+  }
+  
+}
+
+/*
+iPhone 12 Proサイズ
+===============================-*/
+@media(max-width: 390px) {
+  header {
+    max-width: 390px;
+  }
+  #hero {/*画像を画面内におさめる為の処理*/
+    width: 39rem; 
+  }
+  .hotel-name {/*ボックスを中央に寄せた*/
+    margin-left: 2.5rem;
+    left: 0;
+
+  }
+
+  .container {
+    justify-content: center;
+    width: 17rem;
+  }
+
+  .colum {/*この幅が小さすぎるとボタンの幅が変になる*/
+    width: 30rem;
+  }
+
+}
+
+@media(max-width: 600px) {
+  header {
+    max-width: 39rem;
+  }
+  #hero {/*画像を画面内におさめる為の処理*/
+    width: 39rem; 
+  }
+  .hotel-name {/*ボックスを中央に寄せた*/
+    margin-left: 2.5rem;
+    left: 0;
+
+  }
+}
+
+/*
+iPhone XRサイズ
+=================================*/
+@media(max-width: 414px) {
+  header {
+    width: 100%;
+    background-size: contain;
+  }
+  #hero {/*画像を画面内におさめる為の処理*/
+    width: 100%;
+    
+  }
+
+  .top-box {
+    width: 100%;
+    padding: 0 20rem;
+    display: flex;
+  }
+  
+  .hotel-name {/*ボックスを中央に寄せた*/
+    width: 20rem;
+    margin-left: 3rem;
+    left: 0;
+
+  }
+
+  .hotel-name p {
+    overflow-wrap: break-word;
+  }
+
+  .container {
+    width: 100%;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .colum {/*この幅が小さすぎるとボタンの幅が変になる*/
+    width: 29rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;   
+  }
+
+  .wine-img {
+    margin-right: 3rem;
+  }
+
+  .plan-pr {
+    text-align: center;
+  }
+
+  .plan-text p{
+    margin-right: 3rem;  
+  }
+
+  .btn-wrapper {
+    margin-right: 0;
+    margin-top: 3rem;
+  }
+
+  .wine-img img {/*このサイズでは画像を消し、改めてbackground-imageとして設定する*/
+    display: inline-block;
+  }
+
+  .colum {
+    height: 100%;
+    
+  }
+}
