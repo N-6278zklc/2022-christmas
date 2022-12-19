@@ -421,9 +421,101 @@ Footer
     align-items: center;
   }
   
-  .btn-left,
-  .btn-right {
-    margin-right: 20%;
+  
+  #plan {
+    width: 100%;
+    height: 70rem;
+  }
+
+  #plan .container {
+    width: 100%;
+  }
+
+  .colum {/*この幅が小さすぎるとボタンの幅が変になる*/
+    width: 30rem;
+    height: 100%;
+    margin-top: 12px;
+    margin-left: -8%;
+    display: inline-block;
+  }
+
+  
+
+  .btn-wrapper {
+    width: 100%;
+    margin-right: -25%;
+    text-align: center;
+    
+    
+  }
+
+  
+
+  .plan-text {
+    width: 100%;
+  }
+
+  .plan-bg {
+    width: 55%;
+    
+  }
+
+  /*menu*/
+
+  #dinner {
+    height: 70rem;
+  }
+
+  #launch {
+    height: 70rem;
+  }
+
+  .menu {/*メニューを立て並び*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }  
+
+  
+
+  .menu-block {
+    width: 98%;
+    height: 500rem;
+   
+  }
+
+  .menu-block ul {
+    line-height: 5;
+    padding-bottom: 5rem;
+    
+  }
+
+  
+
+  /*map*/
+
+  #acsess {
+    width: 100%;
+  }
+
+  .display {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map {
+    width: 80%;
+    
+  }
+
+  .location {
+    order: 2;
+  }
+
+  .map {
+    order: 0;
+
   }
 }
 
@@ -486,7 +578,40 @@ iPhone 12 Proサイズ
     
   }
 
+  /*
+  Menu
+  ================================*/
 
+
+  #dinner {
+    height: 70rem;
+  }
+
+  #launch {
+    height: 70rem;
+  }
+
+  .menu {/*メニューを立て並び*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }  
+
+  
+
+  .menu-block {
+    width: 98%;
+    height: 500rem;
+   
+  }
+
+  .menu-block ul {
+    line-height: 5;
+    padding-bottom: 5rem;
+    
+  }
+
+  
 
   /*
   map
@@ -498,12 +623,25 @@ iPhone 12 Proサイズ
 
   .display {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
   }
 
   .map {
     width: 80%;
+    
   }
+
+  .location {
+    order: 2;
+  }
+
+  .map {
+    order: 0;
+
+  }
+
+  
 }
 
 @media(max-width: 600px) {
@@ -516,6 +654,33 @@ iPhone 12 Proサイズ
   .hotel-name {/*ボックスを中央に寄せた*/
     margin-left: 2.5rem;
     left: 0;
+
+  }
+
+
+  /*map
+  ===================================*/
+  #acsess {
+    width: 100%;
+  }
+
+  .display {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map {
+    width: 80%;
+    
+  }
+
+  .location {
+    order: 2;
+  }
+
+  .map {
+    order: 0;
 
   }
 }
@@ -588,4 +753,52 @@ iPhone XRサイズ
     height: 100%;
     
   }
+  #dinner {
+    height: 70rem;
+  }
+
+  #launch {
+    height: 70rem;
+  }
+
+  .menu {/*メニューを立て並び*/
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }  
+
+  
+
+  .menu-block {
+    width: 98%;
+    height: 500rem;
+   
+  }
+
+  .menu-block ul {
+    line-height: 5;
+    padding-bottom: 5rem;
+    
+  }
+
+  #acsess {
+    width: 100%;
+  }
+
+  .display {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .map {
+    width: 80%;
+    order: 0;
+  }
+
+  .location {/*住所のテキストを一番下に変更*/
+    order: 2;
+  }
+
+  
 }
