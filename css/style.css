@@ -483,6 +483,7 @@ Footer
     height: 500rem;
    
   }
+  
 
   .menu-block ul {
     line-height: 5;
@@ -513,6 +514,7 @@ Footer
     order: 2;
   }
 
+  
   .map {
     order: 0;
 
@@ -584,23 +586,30 @@ iPhone 12 Proサイズ
 
 
   #dinner {
-    height: 70rem;
+    height: 100%;
+    margin-bottom: 20rem;
   }
 
   #launch {
-    height: 70rem;
+    height: 100%;
+  }
+
+  #launch .container {
+    height: 100%;
   }
 
   .menu {/*メニューを立て並び*/
-    height: 100%;
+    height: 600rem;
     display: flex;
     flex-direction: column;
+   
   }  
 
   
 
   .menu-block {
     width: 98%;
+    height: 100%;
     height: 500rem;
    
   }
@@ -619,6 +628,7 @@ iPhone 12 Proサイズ
 
   #acsess {
     width: 100%;
+    height: 100%;
   }
 
   .display {
@@ -754,24 +764,31 @@ iPhone XRサイズ
     
   }
   #dinner {
-    height: 70rem;
+    height: 90rem;
+    margin-bottom: 20rem;
   }
 
   #launch {
-    height: 70rem;
+    height: 100rem;
+  }
+
+  #launch .container {
+    height: 100%;
   }
 
   .menu {/*メニューを立て並び*/
-    height: 100%;
+    height: 600rem;
     display: flex;
     flex-direction: column;
+   
   }  
 
   
 
   .menu-block {
     width: 98%;
-    height: 500rem;
+    height: 25rem;
+    
    
   }
 
@@ -780,6 +797,8 @@ iPhone XRサイズ
     padding-bottom: 5rem;
     
   }
+
+  
 
   #acsess {
     width: 100%;
